@@ -17,7 +17,6 @@ public class LoginService {
     * @return null 로그인 실패
     */
 
-
     public Member login(String loginId, String password)
     {
         Optional<Member> findMemberOptional = memberRepository.findByLoginId(loginId);
